@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./recycleBin.css" />
+    <link
+      rel="website icon"
+      type="png"
+      href="./assets/picture/Picsart_23-08-20_21-40-43-961.png"
+    />
+    <title>Recycle Bin</title>
+  </head>
+  <body>
+    <div class="main">
+      <header class="header__top">
+        <div class="header">
+          <a class="header__logo" href="./index.html">
+            <img
+              class="header__logo__img"
+              src="./assets/picture/heading/Untitled-removebg-preview.png "
+              alt="logo"
+            />
+          </a>
+          <div class="header__search">
+            <div class="header__search__input__wrap">
+              <input
+                class="header__search__input"
+                type="text"
+                placeholder="Search"
+              />
+              <div class="header__search__history">
+                <ul class="header__search__history__list">
+                  <li class="header__search__history__list__item">
+                    <a href="" class="header__search__history__list__item--link"
+                      >the 48 laws of power</a
+                    >
+                  </li>
+                  <li class="header__search__history__list__item">
+                    <a href="" class="header__search__history__list__item--link"
+                      >thiên tài bên trái kẻ điên bên phải</a
+                    >
+                  </li>
+                  <li class="header__search__history__list__item">
+                    <a href="" class="header__search__history__list__item--link"
+                      >algorithm</a
+                    >
+                  </li>
+                  <li class="header__search__history__list__item">
+                    <a href="" class="header__search__history__list__item--link"
+                      >coding for dummies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="header__search__button">
+              <img
+                title="Search"
+                class="header__search__button__icons"
+                src="./assets/picture/heading/search-interface-symbol.png"
+                alt="search"
+              />
+            </button>
+          </div>
+          <div class="header__links">
+            <a
+              href="./index.html"
+              class="navlink_active header__links__icon--mobile"
+            >
+              <img
+                title="Home"
+                class="header__links__icons header__links__icon--active header__links__icons--mobile"
+                src="./assets/picture/heading/home (3).png"
+                alt="Home"
+              />
+            </a>
+            <a class="header__links__icon--mobile" href="./pages/about-us.html">
+              <img
+                title="About Us"
+                class="header__links__icons header__links__icons--mobile"
+                src="./assets/picture/heading/lightbulb.png"
+                alt="About us"
+              />
+            </a>
+            <button class="header__links__button header__links__button--user">
+              <img
+                class="header__links__icons header__links__icons--mobile"
+                src="./assets/picture/heading/user (1).png"
+                alt="user"
+              />
+              <div class="header__links__button__user">
+                <div class="header__links__button__user__content">
+                  <a
+                    href="./pages/signUp.html"
+                    class="header__links__button__user--link header__links__button__user--link--register"
+                    >Sign Up</a
+                  >
+                  <a
+                    href="./pages/signIn.html"
+                    class="header__links__button__user--link header__links__button__user--link--login"
+                    >Sign In</a
+                  >
+                  <!-- <a
+                    href="./pages/signIn.html"
+                    class="header__links__button__user--link header__links__button__user--link--login"
+                    >Sign In</a
+                  > -->
+                </div>
+              </div>
+            </button>
+            <button class="header__links__button header__links__button--menu">
+              <img
+                class="header__links__icons"
+                src="./assets/picture/heading/menu (1).png"
+                alt="Menu"
+              />
+              <div class="header__links__button__menu">
+                <div class="header__links__button__menu__content">
+                  <div class="header__links__button__menu__area-1">
+                    <div class="header__links__button__menu--top">
+                      <img
+                        src="./assets/picture/heading/book.png"
+                        alt=""
+                        class="header__links__button__menu--top__img"
+                      />
+                      <h6 class="header__links__button__menu__type">
+                        Types of book:
+                      </h6>
+                    </div>
+                    <ul class="header__links__button__menu__list">
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Textbook
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Novel
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Picture book
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Poem
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Autobiography
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Encyclopedia
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Thriller book
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Short story
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Cookery book
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Nonfiction
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Science fiction book
+                          </p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="header__links__button__menu__area-2">
+                    <div class="header__links__button__menu--top">
+                      <img
+                        src="./assets/picture/heading/comic-book.png"
+                        alt=""
+                        class="header__links__button__menu--top__img"
+                      />
+                      <h6 class="header__links__button__menu__type">
+                        Types of comic:
+                      </h6>
+                    </div>
+                    <ul class="header__links__button__menu__list">
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Fairy tale
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Myth
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Ghost story
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Comic
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Fable
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Funny story
+                          </p>
+                        </a>
+                      </li>
+                      <li class="header__links__button__menu__list__item">
+                        <a
+                          href=""
+                          class="header__links__button__menu__list__item--link"
+                        >
+                          <p
+                            class="header__links__button__menu__list__item--link__paragraph"
+                          >
+                            Short story
+                          </p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="header__links__button__menu--mobile">
+                <div class="header__links__button__menu--mobile__content">
+                  <a
+                    href="./index.html"
+                    class="header__links__button__menu--mobile__home"
+                  >
+                    <img
+                      class="header__links__button__menu--mobile__content--arrow"
+                      src="./assets/picture/next.png"
+                      alt=""
+                    />
+                    <img
+                      class="header__links__button__menu--mobile__home__img"
+                      src="./assets/picture/heading/home (3).png"
+                      alt="Home"
+                    />
+                    <h6
+                      class="header__links__button__menu--mobile__home__heading"
+                    >
+                      Home
+                    </h6>
+                  </a>
+                  <a
+                    class="header__links__button__menu--mobile__about-us"
+                    href="./pages/about-us.html"
+                  >
+                    <img
+                      class="header__links__button__menu--mobile__content--arrow"
+                      src="./assets/picture/next.png"
+                      alt=""
+                    />
+                    <img
+                      title="About Us"
+                      class="header__links__button__menu--mobile__about-us__img"
+                      src="./assets/picture/heading/lightbulb.png"
+                      alt="About us"
+                    />
+                    <h6
+                      class="header__links__button__menu--mobile__about-us__heading"
+                    >
+                      About Us
+                    </h6>
+                  </a>
+                  <div
+                    class="header__links__button__menu--mobile__content__type"
+                  >
+                    <div
+                      class="header__links__button__menu--mobile__content__type--book"
+                    >
+                      <img
+                        src="./assets/picture/next.png"
+                        alt=""
+                        class="header__links__button__menu--mobile__content--arrow"
+                      />
+                      <img
+                        src="./assets/picture/heading/book.png"
+                        alt=""
+                        class="header__links__button__menu--mobile__content__type--img"
+                      />
+                      <h6
+                        class="header__links__button__menu--mobile__content__type--book__heading"
+                      >
+                        Types of book
+                      </h6>
+                    </div>
+                    <div
+                      class="header__links__button__menu--mobile__content__type--comic"
+                    >
+                      <img
+                        src="./assets/picture/next.png"
+                        alt=""
+                        class="header__links__button__menu--mobile__content--arrow"
+                      />
+                      <img
+                        src="./assets/picture/heading/comic-book.png"
+                        alt=""
+                        class="header__links__button__menu--mobile__content__type--img"
+                      />
+                      <h6
+                        class="header__links__button__menu--mobile__content__type--comic__heading"
+                      >
+                        Types of comic
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+      <header class="header__bottom">
+        <div class="header__bottom__content">
+          <div class="header__bottom__search">
+            <div class="header__bottom__search__input__wrap">
+              <input
+                class="header__bottom__search__input"
+                type="text"
+                placeholder="Search"
+              />
+              <div class="header__bottom__search__history">
+                <ul class="header__bottom__search__history__list">
+                  <li class="header__bottom__search__history__list__item">
+                    <a
+                      href=""
+                      class="header__bottom__search__history__list__item--link"
+                      >the 48 laws of power</a
+                    >
+                  </li>
+                  <li class="header__bottom__search__history__list__item">
+                    <a
+                      href=""
+                      class="header__bottom__search__history__list__item--link"
+                      >thiên tài bên trái kẻ điên bên phải</a
+                    >
+                  </li>
+                  <li class="header__bottom__search__history__list__item">
+                    <a
+                      href=""
+                      class="header__bottom__search__history__list__item--link"
+                      >algorithm</a
+                    >
+                  </li>
+                  <li class="header__bottom__search__history__list__item">
+                    <a
+                      href=""
+                      class="header__bottom__search__history__list__item--link"
+                      >coding for dummies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button class="header__search__button">
+              <img
+                title="Search"
+                class="header__search__button__icons"
+                src="./assets/picture/heading/search-interface-symbol.png"
+                alt="search"
+              />
+            </button>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <h1>DELETED PRODUCTS</h1>
+        <div id="container"></div>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+    <script src="./recycleBin.js"></script>
+  </body>
+</html>
